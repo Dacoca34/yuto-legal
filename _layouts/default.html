@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page.title | default: "Hey Yuto" }}</title>
+<link rel="icon" href="{{ '/yuto.png' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/estilo.css' | relative_url }}">
+</head>
+<body>
+<header class="barra"><div class="envoltura">
+  <a class="marca" href="{{ '/' | relative_url }}"><img src="{{ '/yuto.png' | relative_url }}" alt="">Hey Yuto</a>
+  <a class="boton chico" href="{{ '/#descargar' | relative_url }}">Descargar</a>
+</div></header>
+<main class="doc">{{ content }}</main>
+<footer><div class="envoltura">
+  <div>© Hey Yuto · <a href="mailto:soporte@heyyuto.com">soporte@heyyuto.com</a></div>
+  <div><a href="{{ '/privacidad' | relative_url }}">Privacidad</a> · <a href="{{ '/terminos' | relative_url }}">Términos</a></div>
+</div></footer>
+</body>
+</html>

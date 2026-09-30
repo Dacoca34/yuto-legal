@@ -1,3 +1,7 @@
+---
+title: Términos de uso · Hey Yuto
+---
+
 # Términos de uso
 
 Última actualización: 29 de septiembre de 2026
