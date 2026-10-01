@@ -23,9 +23,9 @@ section{padding:56px 0}
 section h2{font-size:clamp(28px,4.5vw,38px);text-align:center}
 .intro{text-align:center;color:var(--gris);max-width:640px;margin:0 auto 32px}
 .rejilla{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-.tarjeta{background:var(--suave);border-radius:20px;padding:22px}
-.tarjeta .icono{font-size:30px}
-.tarjeta h3{font-size:20px;margin:8px 0 6px}
+.tarjeta{background:var(--suave);border-radius:20px;padding:18px;display:grid;grid-template-columns:84px 1fr;column-gap:14px;align-items:start}
+.tarjeta .pose{width:84px;height:84px;grid-row:span 2}
+.tarjeta h3{font-size:20px;margin:6px 0 4px}
 .tarjeta p{margin:0;color:var(--gris);font-size:16px}
 .pasos{counter-reset:paso;display:grid;gap:14px;max-width:720px;margin:0 auto}
 .paso{position:relative;background:var(--blanco);border:2px solid var(--claro);border-radius:18px;padding:18px 18px 18px 64px}
@@ -49,4 +49,19 @@ footer .yutori{opacity:.8}
 .doc{max-width:760px;margin:0 auto;padding:40px 20px 64px}
 .doc h1{color:var(--morado);font-size:clamp(32px,5vw,44px)}
 .doc h2{font-size:24px;text-align:left;margin-top:1.6em}
+.capturas{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 4px;padding:6px 4px 18px;-webkit-overflow-scrolling:touch}
+.capturas figure{flex:0 0 220px;margin:0;scroll-snap-align:start;text-align:center}
+.capturas img{width:100%;height:auto;border-radius:26px;border:6px solid var(--profundo);box-shadow:0 12px 28px rgba(32,16,80,.18);display:block}
+.capturas figcaption{font-size:15px;font-weight:700;margin-top:10px}
+.capturas figure:first-child{margin-left:auto}.capturas figure:last-child{margin-right:auto}
+.centro{text-align:center;margin:18px 0 0}
+.boton.instagram{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(45deg,#f09433,#dc2743 50%,#bc1888);box-shadow:0 6px 18px rgba(220,39,67,.3)}
+.espera{text-align:center}
+.pose.grande{width:150px;height:150px}
+.formulario{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:520px;margin:0 auto}
+.formulario input{flex:1 1 240px;font:inherit;padding:13px 16px;border:2px solid var(--claro);border-radius:16px;color:var(--profundo);background:var(--blanco)}
+.formulario input:focus{outline:none;border-color:var(--morado)}
+.formulario .boton{border:0;cursor:pointer;font:inherit;font-weight:700}
+.formulario .boton:disabled{opacity:.6}
+.redes{margin-top:18px}
 @media(min-width:820px){.portada .envoltura{grid-template-columns:1.2fr .8fr}.portada .yuto{justify-self:end}}
