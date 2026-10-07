@@ -26,7 +26,9 @@ Hey Yuto lo desarrolla y administra Carlos Daniel Contreras Castro, en Panamá. 
 
 **Lista de espera de heyyuto.com:** si dejas tu correo en la página para que te avisemos cuando Hey Yuto salga en Play Store, guardamos solo ese correo y la fecha, y lo usamos solo para ese aviso. Para que lo borremos, escribe a soporte@heyyuto.com.
 
-Si importas un Excel, el archivo se lee en tu teléfono; solo se guardan los movimientos, cuentas y categorías que confirmas.
+Si importas un Excel, el archivo se lee en tu teléfono; solo se guardan los movimientos, cuentas y categorías que confirmas. Si importas un estado de cuenta en PDF, solo se guardan los movimientos que confirmas.
+
+**Mis alertas:** si pones una alerta (un tope de gasto en una categoría o un saldo mínimo en una cuenta), guardamos la alerta para revisarla cada hora y avisarte.
 
 ## Para qué los usamos
 
@@ -38,7 +40,7 @@ Solo con los servicios que hacen funcionar la app, que procesan los datos por cu
 
 - **Supabase** guarda tu cuenta y tus datos. Sus servidores están en Estados Unidos (Oregón), así que tus datos se transfieren fuera de Panamá.
 - **Google Firebase** envía los recordatorios a tu teléfono. Solo recibe el identificador del teléfono y el texto del recordatorio.
-- **Anthropic** lee la foto de una factura cuando la escaneas, para sacar los productos y montos. Cuando le preguntas algo a Yuto, recibe tu pregunta, la foto que adjuntes, un resumen de tus finanzas del mes y los movimientos que Yuto busque para responderte. No usa nada de esto para entrenar sus modelos.
+- **Anthropic** lee la foto de una factura cuando la escaneas, para sacar los productos y montos, y las páginas de un estado de cuenta en PDF cuando lo importas, para sacar los movimientos (el PDF no se guarda). Cuando le preguntas algo a Yuto, recibe tu pregunta, la foto que adjuntes, un resumen de tus finanzas del mes y los movimientos que Yuto busque para responderte. No usa nada de esto para entrenar sus modelos.
 
 Fuera de eso, solo entregaríamos datos si una autoridad competente lo exige conforme a la ley.
 
