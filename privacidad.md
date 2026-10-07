@@ -19,7 +19,7 @@ Hey Yuto lo desarrolla y administra Carlos Daniel Contreras Castro, en Panamá. 
 - **Los avisos de tu banco:** si le das a Hey Yuto acceso a tus notificaciones, lee solo los avisos de las apps de bancos y billeteras que reconoce. De cada aviso de compra guarda el monto, el comercio, la fecha y el texto del aviso, para que puedas revisarlo. Si el aviso dice los últimos 4 dígitos de tu tarjeta, se guardan en la cuenta a la que la asignes, para anotar solas las próximas compras con esa tarjeta. Nunca se guarda el número completo. Los avisos de cualquier otra app (mensajes, redes sociales, correo) se ignoran: no se leen ni se guardan.
 - **Fotos de facturas:** si escaneas una factura, la foto se guarda en tu cuenta cuando confirmas los datos. Si cancelas, no se guarda.
 - **Cumpleaños y fechas para regalar:** el nombre, el día y el mes que anotes y, si quieres apartar para el regalo, el monto.
-- **Tus preguntas a Yuto:** la conversación se guarda solo en tu teléfono. En nuestros servidores solo contamos cuántas preguntas haces al día, para el límite diario. Si tocas "Me sirvió" o "No era eso" debajo de una respuesta, guardamos esa pregunta y esa respuesta para mejorar a Yuto.
+- **Tus preguntas a Yuto:** la conversación se guarda solo en tu teléfono. Si le mandas una foto, se usa solo para responderte: no la guardamos. En nuestros servidores solo contamos cuántas preguntas haces al día, para el límite diario. Si tocas "Me sirvió" o "No era eso" debajo de una respuesta, guardamos esa pregunta y esa respuesta para mejorar a Yuto.
 - **Grupos compartidos:** si creas un grupo o te unes a uno, los demás miembros ven los movimientos que se anotan en ese grupo y los mensajes que escribes ahí.
 - **Tu aceptación:** la fecha en que aceptaste esta política y los términos, y qué versión aceptaste.
 - **Datos técnicos:** un identificador del teléfono para enviarte recordatorios, y registros de errores de la app para poder arreglarlos.
@@ -38,7 +38,7 @@ Solo con los servicios que hacen funcionar la app, que procesan los datos por cu
 
 - **Supabase** guarda tu cuenta y tus datos. Sus servidores están en Estados Unidos (Oregón), así que tus datos se transfieren fuera de Panamá.
 - **Google Firebase** envía los recordatorios a tu teléfono. Solo recibe el identificador del teléfono y el texto del recordatorio.
-- **Anthropic** lee la foto de una factura cuando la escaneas, para sacar los productos y montos. Cuando le preguntas algo a Yuto, recibe tu pregunta, un resumen de tus finanzas del mes y los movimientos que Yuto busque para responderte. No usa nada de esto para entrenar sus modelos.
+- **Anthropic** lee la foto de una factura cuando la escaneas, para sacar los productos y montos. Cuando le preguntas algo a Yuto, recibe tu pregunta, la foto que adjuntes, un resumen de tus finanzas del mes y los movimientos que Yuto busque para responderte. No usa nada de esto para entrenar sus modelos.
 
 Fuera de eso, solo entregaríamos datos si una autoridad competente lo exige conforme a la ley.
 
