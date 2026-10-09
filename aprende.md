@@ -166,3 +166,7 @@ Lo que te queda después de pagar **todo**: el producto y también los gastos de
 ### Sueldo posible
 
 Cuánto te podrías pagar del negocio cada mes sin dejarlo sin plata, según lo que ha ganado en los últimos meses.
+
+### Cuenta del negocio
+
+La cuenta de banco o el efectivo que usas solo para el negocio. Si la marcas como del negocio, todo lo que pase por ella cuenta para él y deja de mezclarse con tu plata personal; en Inicio, el negocio tiene su propia pestaña con su saldo.
