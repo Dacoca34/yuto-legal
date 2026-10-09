@@ -4,7 +4,7 @@ title: Política de privacidad · Hey Yuto
 
 # Política de privacidad
 
-Última actualización: 7 de octubre de 2026
+Última actualización: 8 de octubre de 2026
 
 Hey Yuto es una app para llevar tus finanzas personales. Esta política explica qué datos guarda, para qué, dónde y cómo puedes verlos o borrarlos. Se rige por la Ley 81 de 2019 de Protección de Datos Personales de Panamá.
 
@@ -20,7 +20,7 @@ Hey Yuto lo desarrolla y administra Carlos Daniel Contreras Castro, en Panamá. 
 - **Fotos de facturas:** si escaneas una factura, la foto se guarda en tu cuenta cuando confirmas los datos. Si cancelas, no se guarda.
 - **Cumpleaños y fechas para regalar:** el nombre, el día y el mes que anotes y, si quieres apartar para el regalo, el monto.
 - **Tus preguntas a Yuto:** la conversación se guarda solo en tu teléfono. Si le mandas una foto, se usa solo para responderte: no la guardamos. En nuestros servidores solo contamos cuántas preguntas haces al día, para el límite diario. Si tocas "Me sirvió" o "No era eso" debajo de una respuesta, guardamos esa pregunta y esa respuesta para mejorar a Yuto.
-- **Grupos compartidos:** si creas un grupo o te unes a uno, los demás miembros ven los movimientos que se anotan en ese grupo y los mensajes que escribes ahí.
+- **Grupos compartidos:** si creas un grupo o te unes a uno, los demás miembros ven los movimientos que se anotan en ese grupo, con el nombre de la categoría que les puso quien los categorizó (por ejemplo "Supermercado · David"), y los mensajes que escribes ahí. Tus demás categorías siguen siendo solo tuyas.
 - **Tu aceptación:** la fecha en que aceptaste esta política y los términos, y qué versión aceptaste.
 - **Datos técnicos:** un identificador del teléfono para enviarte recordatorios, y registros de errores de la app para poder arreglarlos.
 
