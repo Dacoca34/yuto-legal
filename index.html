@@ -15,7 +15,7 @@
 <body>
 <header class="barra"><div class="envoltura">
   <a class="marca" href="./"><img src="yuto.png" alt="">Hey Yuto</a>
-  <a class="boton chico" href="#lista">Lista de espera</a>
+  <a class="boton chico" href="#lista">Únete a la beta</a>
 </div></header>
 
 <div class="portada"><div class="envoltura">
@@ -23,8 +23,8 @@
     <h1>Hey Yuto</h1>
     <p class="lema">Tu copiloto de finanzas</p>
     <p>Yuto anota tus compras solo, te avisa antes de que te cobren y te dice cuánto apartar de cada pago. Para que sepas cuánto tienes de verdad, sin hojas de Excel.</p>
-    <p><a class="boton" href="#lista">Ponte en la lista de espera</a></p>
-    <p class="chica">Pronto en Play Store, para Android 8 o superior.</p>
+    <p><a class="boton" href="#lista">Prueba la beta gratis</a></p>
+    <p class="chica">Beta abierta en Panamá, para Android 8 o superior. Los que la prueban tienen Pro gratis.</p>
   </div>
   <img class="yuto" src="assets/yuto/saludando.webp" alt="Yuto, el robot de la app, saludando">
 </div></div>
@@ -99,13 +99,19 @@
 
 <section class="espera" id="lista"><div class="envoltura">
   <img class="pose grande" src="assets/yuto/megafono.webp" alt="" loading="lazy">
-  <h2>Pronto en Play Store</h2>
-  <p class="intro">Déjanos tu correo y te avisamos el día que Hey Yuto salga en la tienda. Solo para eso: nada de publicidad.</p>
+  <h2>Prueba Hey Yuto antes que nadie</h2>
+  <p class="intro">Estamos en beta en Google Play. Déjanos tu <b>Gmail</b>, el de tu teléfono, y te mandamos el enlace para instalarla. Los beta testers tienen <b>Pro gratis</b>.</p>
+  <ul class="pasos-beta">
+    <li>Necesitas un teléfono <b>Android</b> 8 o superior y vivir en <b>Panamá</b>.</li>
+    <li>Te llega un enlace: lo abres con ese Gmail, tocas <b>Unirse</b> e instalas desde Play.</li>
+    <li>La usas normal por lo menos <b>14 días</b>, sin desinstalarla, y nos cuentas qué te pareció.</li>
+  </ul>
   <form id="espera" class="formulario">
-    <input type="email" name="email" required maxlength="254" placeholder="tu@correo.com" aria-label="Tu correo">
-    <button class="boton" type="submit">Avísame</button>
+    <input type="email" name="email" required maxlength="254" placeholder="tu@gmail.com" aria-label="Tu Gmail">
+    <button class="boton" type="submit">Quiero probarla</button>
   </form>
   <p class="chica" id="espera-msj" role="status"></p>
+  <p class="chica">Solo usamos tu correo para la beta: nada de publicidad.</p>
   <p class="redes">Síguenos en Instagram: <a href="https://www.instagram.com/heyyutoapp">@heyyutoapp</a></p>
 </div></section>
 
@@ -121,13 +127,16 @@
   <div><a href="https://www.instagram.com/heyyutoapp">Instagram</a> · <a href="aprende">Aprende</a> · <a href="privacidad">Privacidad</a> · <a href="terminos">Términos</a></div>
 </div></footer>
 <script>
-// Lista de espera: escribe directo en Supabase con la llave publica. La tabla
-// solo deja insertar (nadie de afuera la puede leer); un correo repetido
-// devuelve 409 y se toma como "ya estabas".
+// Inscripcion a la beta (antes lista de espera): escribe directo en Supabase con
+// la llave publica. La tabla solo deja insertar (nadie de afuera la puede leer);
+// un correo repetido devuelve 409 y se toma como "ya estabas". El vigia avisa
+// a Carlos de cada inscripcion nueva para sumarla como tester.
 document.getElementById('espera').addEventListener('submit', async e => {
   e.preventDefault();
   const f = e.target, msj = document.getElementById('espera-msj'), boton = f.querySelector('button');
   const email = f.email.value.trim().toLowerCase();
+  // Play inscribe testers por su cuenta de Google: casi siempre un Gmail.
+  if (!/@(gmail|googlemail)\.com$/.test(email) && !confirm('Para la beta de Google Play necesitamos el correo de tu cuenta de Google (casi siempre un @gmail.com). ¿Este correo es el de tu Play Store?')) return;
   boton.disabled = true; msj.textContent = 'Guardando…';
   try {
     const r = await fetch('https://frsaeiukbvawchaxjegr.supabase.co/rest/v1/moneylog_lista_espera', {
@@ -139,8 +148,8 @@ document.getElementById('espera').addEventListener('submit', async e => {
       },
       body: JSON.stringify({ email })
     });
-    if (r.ok) { msj.textContent = '¡Listo! Te avisamos cuando salga.'; f.reset(); }
-    else if (r.status === 409) msj.textContent = 'Ya estabas en la lista. ¡Te avisamos!';
+    if (r.ok) { msj.textContent = '¡Listo! En unos días te llega el enlace de Google Play a ese correo.'; f.reset(); }
+    else if (r.status === 409) msj.textContent = 'Ya estabas inscrito. ¡Pronto te llega el enlace!';
     else msj.textContent = 'Revisa que el correo esté bien escrito.';
   } catch (_) {
     msj.textContent = 'No se pudo guardar. Revisa tu conexión e intenta de nuevo.';

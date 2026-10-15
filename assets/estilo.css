@@ -57,6 +57,8 @@ footer .yutori{opacity:.8}
 .centro{text-align:center;margin:18px 0 0}
 .boton.instagram{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(45deg,#f09433,#dc2743 50%,#bc1888);box-shadow:0 6px 18px rgba(220,39,67,.3)}
 .espera{text-align:center}
+.pasos-beta{max-width:520px;margin:0 auto 24px;padding-left:22px;text-align:left;color:var(--gris);line-height:1.6}
+.pasos-beta li{margin:6px 0}
 .pose.grande{width:150px;height:150px}
 .formulario{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:520px;margin:0 auto}
 .formulario input{flex:1 1 240px;font:inherit;padding:13px 16px;border:2px solid var(--claro);border-radius:16px;color:var(--profundo);background:var(--blanco)}
