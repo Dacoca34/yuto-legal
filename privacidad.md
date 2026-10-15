@@ -4,7 +4,7 @@ title: Política de privacidad · Hey Yuto
 
 # Política de privacidad
 
-Última actualización: 8 de octubre de 2026
+Última actualización: 15 de octubre de 2026
 
 Hey Yuto es una app para llevar tus finanzas personales. Esta política explica qué datos guarda, para qué, dónde y cómo puedes verlos o borrarlos. Se rige por la Ley 81 de 2019 de Protección de Datos Personales de Panamá.
 
@@ -16,7 +16,7 @@ Hey Yuto lo desarrolla y administra Carlos Daniel Contreras Castro, en Panamá. 
 
 - **Tu cuenta:** tu correo y el nombre de usuario que elijas. La contraseña se guarda cifrada; nadie puede leerla.
 - **Lo que anotas o importas:** gastos, ingresos, cuentas y sus saldos, tarjetas, préstamos, deudas, metas de ahorro, gastos recurrentes, categorías y tu horario de pago.
-- **Los avisos de tu banco:** si le das a Hey Yuto acceso a tus notificaciones, lee solo los avisos de las apps de bancos y billeteras que reconoce. De cada aviso de compra guarda el monto, el comercio, la fecha y el texto del aviso, para que puedas revisarlo. Si el aviso dice los últimos 4 dígitos de tu tarjeta, se guardan en la cuenta a la que la asignes, para anotar solas las próximas compras con esa tarjeta. Nunca se guarda el número completo. Los avisos de cualquier otra app (mensajes, redes sociales, correo) se ignoran: no se leen ni se guardan.
+- **Los avisos de tu banco:** si le das a Hey Yuto acceso a tus notificaciones, lee solo los avisos de las apps de bancos y billeteras que reconoce. De cada aviso de compra guarda el monto, el comercio, la fecha y el texto del aviso, para que puedas revisarlo. Si el aviso dice los últimos 4 dígitos de tu tarjeta, se guardan en la cuenta a la que la asignes, para anotar solas las próximas compras con esa tarjeta. Nunca se guarda el número completo. De tu app de mensajes solo reconoce los SMS de tu banco (hoy, las transferencias de BAC): cualquier otro mensaje se descarta en el momento, sin guardarse ni enviarse a ningún lado. Los avisos de cualquier otra app (redes sociales, correo) se ignoran: no se leen ni se guardan.
 - **Fotos de facturas:** si escaneas una factura, la foto se guarda en tu cuenta cuando confirmas los datos. Si cancelas, no se guarda.
 - **Cumpleaños y fechas para regalar:** el nombre, el día y el mes que anotes y, si quieres apartar para el regalo, el monto.
 - **Tus preguntas a Yuto:** la conversación se guarda solo en tu teléfono. Si le mandas una foto, se usa solo para responderte: no la guardamos. En nuestros servidores solo contamos cuántas preguntas haces al día, para el límite diario. Si tocas "Me sirvió" o "No era eso" debajo de una respuesta, guardamos esa pregunta y esa respuesta para mejorar a Yuto.
