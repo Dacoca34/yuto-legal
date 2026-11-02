@@ -67,3 +67,4 @@ footer .yutori{opacity:.8}
 .formulario .boton:disabled{opacity:.6}
 .redes{margin-top:18px}
 @media(min-width:820px){.portada .envoltura{grid-template-columns:1.2fr .8fr}.portada .yuto{justify-self:end}}
+.play img{height:72px;width:auto;margin-left:-10px}
