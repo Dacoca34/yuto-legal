@@ -26,7 +26,7 @@ Hey Yuto lo desarrolla y administra Carlos Daniel Contreras Castro, en Panamá. 
 - **Tu aceptación:** la fecha en que aceptaste esta política y los términos, y qué versión aceptaste.
 - **Datos técnicos:** un identificador del teléfono para enviarte recordatorios, y registros de errores de la app para poder arreglarlos.
 
-**Lista de espera de heyyuto.com:** si dejas tu correo en la página para que te avisemos cuando Hey Yuto salga en Play Store, guardamos solo ese correo y la fecha, y lo usamos solo para ese aviso. Para que lo borremos, escribe a soporte@heyyuto.com.
+**Lista de espera de heyyuto.com (ya cerrada):** si dejaste tu correo en la página antes de que Hey Yuto saliera en Play Store, guardamos solo ese correo y la fecha, y lo usamos solo para ese aviso. Para que lo borremos, escribe a soporte@heyyuto.com.
 
 Si importas un Excel, el archivo se lee en tu teléfono; solo se guardan los movimientos, cuentas y categorías que confirmas. Si importas un estado de cuenta en PDF, solo se guardan los movimientos que confirmas.
 
