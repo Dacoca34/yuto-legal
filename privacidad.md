@@ -4,7 +4,7 @@ title: Política de privacidad · Hey Yuto
 
 # Política de privacidad
 
-Última actualización: 15 de octubre de 2026
+Última actualización: 5 de noviembre de 2026
 
 Hey Yuto es una app para llevar tus finanzas personales. Esta política explica qué datos guarda, para qué, dónde y cómo puedes verlos o borrarlos. Se rige por la Ley 81 de 2019 de Protección de Datos Personales de Panamá.
 
@@ -22,6 +22,7 @@ Hey Yuto lo desarrolla y administra Carlos Daniel Contreras Castro, en Panamá. 
 - **Tus preguntas a Yuto:** la conversación se guarda solo en tu teléfono. Si le mandas una foto, se usa solo para responderte: no la guardamos. En nuestros servidores solo contamos cuántas preguntas haces al día, para el límite diario. Si tocas "Me sirvió" o "No era eso" debajo de una respuesta, guardamos esa pregunta y esa respuesta para mejorar a Yuto.
 - **Tus comentarios:** si usas "Enviar comentario" en Acerca de, guardamos lo que escribes junto con la versión de la app y el modelo de tu teléfono, para revisarlo.
 - **Grupos compartidos:** si creas un grupo o te unes a uno, los demás miembros ven los movimientos que se anotan en ese grupo, con el nombre de la categoría que les puso quien los categorizó (por ejemplo "Supermercado · David"), y los mensajes que escribes ahí. Tus demás categorías siguen siendo solo tuyas.
+- **Tu plan:** cuál tienes (Básico, Pro o Max), si es mensual o anual, hasta cuándo, si está activo o cancelado, y el código de compra que da Google Play para verificarlo. **No vemos ni guardamos tu tarjeta ni tus datos de pago:** eso lo maneja Google. También contamos cuántas fotos de facturas lees al mes, para el límite de tu plan.
 - **Tu aceptación:** la fecha en que aceptaste esta política y los términos, y qué versión aceptaste.
 - **Datos técnicos:** un identificador del teléfono para enviarte recordatorios, y registros de errores de la app para poder arreglarlos.
 
@@ -40,6 +41,7 @@ Solo para que la app funcione para ti: mostrarte tus saldos, proyectar tu mes, r
 Solo con los servicios que hacen funcionar la app, que procesan los datos por cuenta nuestra:
 
 - **Supabase** guarda tu cuenta y tus datos. Sus servidores están en Estados Unidos (Oregón), así que tus datos se transfieren fuera de Panamá.
+- **Google Play** cobra tu suscripción. Nos dice qué plan compraste y si sigue activo; nosotros le mandamos solo un identificador de tu cuenta de Hey Yuto (no tu correo) para ligar la compra a tu cuenta.
 - **Google Firebase** envía los recordatorios a tu teléfono. Solo recibe el identificador del teléfono y el texto del recordatorio.
 - **Anthropic** lee la foto de una factura cuando la escaneas, para sacar los productos y montos, y las páginas de un estado de cuenta en PDF cuando lo importas, para sacar los movimientos (el PDF no se guarda). Cuando le preguntas algo a Yuto, recibe tu pregunta, la foto que adjuntes, un resumen de tus finanzas del mes y los movimientos que Yuto busque para responderte. No usa nada de esto para entrenar sus modelos.
 

@@ -4,7 +4,7 @@ title: Términos de uso · Hey Yuto
 
 # Términos de uso
 
-Última actualización: 29 de septiembre de 2026
+Última actualización: 5 de noviembre de 2026
 
 Al crear una cuenta en Hey Yuto aceptas estos términos. Si no estás de acuerdo, no uses la app.
 
@@ -21,6 +21,17 @@ Hey Yuto no es un banco ni un asesor financiero, y no se conecta a tus cuentas b
 - Debes tener al menos 18 años.
 - Eres responsable de lo que anotas y de cuidar tu contraseña.
 - Si compartes un grupo, lo que anotas en él lo ven los demás miembros.
+
+## Planes y pagos
+
+- Al crear tu cuenta tienes **30 días gratis** con todo lo de Pro. Al terminar, eliges un plan (Básico, Pro o Max, mensual o anual) o la app queda en **solo lectura**: puedes ver y exportar todo, pero no anotar ni cambiar.
+- Los precios están en Ajustes → Tu plan y en Google Play. Si te suscribes durante la prueba, el cobro empieza ese mismo día.
+- El cobro lo hace **Google Play**, con el medio de pago de tu cuenta de Google. La suscripción **se renueva sola** al final de cada mes o año hasta que la canceles.
+- Puedes cambiar de plan desde la app, y cancelar en Google Play → Pagos y suscripciones. Al cancelar mantienes tu plan hasta el final del período que ya pagaste.
+- **Eliminar tu cuenta de Hey Yuto no cancela la suscripción:** cancélala en Google Play.
+- Los reembolsos los maneja Google Play según sus políticas.
+- Si cambiamos un precio, Google Play te avisa antes de cobrarte el nuevo.
+- Un plan regalado por nosotros dura lo que te digamos al regalarlo y no se cobra.
 
 ## Uso aceptable
 
