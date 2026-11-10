@@ -4,7 +4,7 @@ title: Política de privacidad · Hey Yuto
 
 # Política de privacidad
 
-Última actualización: 5 de noviembre de 2026
+Última actualización: 10 de noviembre de 2026
 
 Hey Yuto es una app para llevar tus finanzas personales. Esta política explica qué datos guarda, para qué, dónde y cómo puedes verlos o borrarlos. Se rige por la Ley 81 de 2019 de Protección de Datos Personales de Panamá.
 
@@ -18,6 +18,7 @@ Hey Yuto lo desarrolla y administra Carlos Daniel Contreras Castro, en Panamá. 
 - **Lo que anotas o importas:** gastos, ingresos, cuentas y sus saldos, tarjetas, préstamos, deudas, metas de ahorro, gastos recurrentes, categorías y tu horario de pago.
 - **Los avisos de tu banco:** si le das a Hey Yuto acceso a tus notificaciones, lee solo los avisos de las apps de bancos y billeteras que reconoce. De cada aviso de compra guarda el monto, el comercio, la fecha y el texto del aviso, para que puedas revisarlo. Si el aviso dice los últimos 4 dígitos de tu tarjeta, se guardan en la cuenta a la que la asignes, para anotar solas las próximas compras con esa tarjeta. Nunca se guarda el número completo. De tu app de mensajes solo reconoce los SMS de tu banco (hoy, las transferencias de BAC): cualquier otro mensaje se descarta en el momento, sin guardarse ni enviarse a ningún lado. Los avisos de cualquier otra app (redes sociales, correo) se ignoran: no se leen ni se guardan.
 - **Fotos de facturas:** si escaneas una factura, la foto se guarda en tu cuenta cuando confirmas los datos. Si cancelas, no se guarda.
+- **Lista del súper:** lo que anotas en la lista, quién lo agregó y quién lo marcó. De las facturas que confirmas guardamos el nombre y el precio de cada producto y el súper, para decirte cuánto te costó la última vez; si le tomas foto a la etiqueta de un precio, solo se guarda el producto, el precio y el súper: la foto no. Si tienes grupo, la lista y esos precios los ven los miembros del grupo.
 - **Cumpleaños y fechas para regalar:** el nombre, el día y el mes que anotes y, si quieres apartar para el regalo, el monto.
 - **Tus preguntas a Yuto:** la conversación se guarda solo en tu teléfono. Si le mandas una foto, se usa solo para responderte: no la guardamos. En nuestros servidores solo contamos cuántas preguntas haces al día, para el límite diario. Si tocas "Me sirvió" o "No era eso" debajo de una respuesta, guardamos esa pregunta y esa respuesta para mejorar a Yuto.
 - **Tus comentarios:** si usas "Enviar comentario" en Acerca de, guardamos lo que escribes junto con la versión de la app y el modelo de tu teléfono, para revisarlo.
@@ -43,7 +44,7 @@ Solo con los servicios que hacen funcionar la app, que procesan los datos por cu
 - **Supabase** guarda tu cuenta y tus datos. Sus servidores están en Estados Unidos (Oregón), así que tus datos se transfieren fuera de Panamá.
 - **Google Play** cobra tu suscripción. Nos dice qué plan compraste y si sigue activo; nosotros le mandamos solo un identificador de tu cuenta de Hey Yuto (no tu correo) para ligar la compra a tu cuenta.
 - **Google Firebase** envía los recordatorios a tu teléfono. Solo recibe el identificador del teléfono y el texto del recordatorio.
-- **Anthropic** lee la foto de una factura cuando la escaneas, para sacar los productos y montos, y las páginas de un estado de cuenta en PDF cuando lo importas, para sacar los movimientos (el PDF no se guarda). Cuando le preguntas algo a Yuto, recibe tu pregunta, la foto que adjuntes, un resumen de tus finanzas del mes y los movimientos que Yuto busque para responderte. No usa nada de esto para entrenar sus modelos.
+- **Anthropic** lee la foto de una factura cuando la escaneas, para sacar los productos y montos, y la de la etiqueta de un precio, para sacar el producto y el precio, y las páginas de un estado de cuenta en PDF cuando lo importas, para sacar los movimientos (el PDF no se guarda). Cuando le preguntas algo a Yuto, recibe tu pregunta, la foto que adjuntes, un resumen de tus finanzas del mes y los movimientos que Yuto busque para responderte. No usa nada de esto para entrenar sus modelos.
 
 Fuera de eso, solo entregaríamos datos si una autoridad competente lo exige conforme a la ley.
 
